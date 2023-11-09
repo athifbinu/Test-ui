@@ -11,17 +11,25 @@ import music from "../assets/music.png";
 import pesandage from "../assets/pesandage.png";
 
 import car from "../assets/car.png";
+import panter from "../assets/painter.png";
+
+import servises from "../assets/services.png";
+import books from "../assets/boks.png";
+
+import store from "../assets/mobile.png";
+
+import { RiArrowDownSFill } from "react-icons/ri";
 
 const Home = () => {
   return (
     <div>
-      <section className="bg-slate-100 mb-14">
+      <section className="bg-banner mb-14">
         <div className="container">
-          <div className="p-4">
+          <div className="p-4 ">
             <img className="w-10" src={mobile} alt="" />
           </div>
           <div className="">
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-between ml-40">
               <div>
                 <h1 className="text-blue-800 font-semibold text-4xl mb-2 ">
                   What are You
@@ -59,8 +67,8 @@ const Home = () => {
             </div>
 
             <div>
-              <button className="bg-blue-700 shadow-xl  p-14 rounded-lg font-semibold hover.bg-indigo-600 py-3 text-sm text-white uppercase">
-                search
+              <button className="bg-common shadow-xl  p-14 rounded-lg font-semibold hover.bg-indigo-600 py-3 text-sm text-white uppercase">
+                Explore
               </button>
             </div>
           </div>
@@ -86,14 +94,14 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="bg-blue-100">
+      <section className="bg-vehicle mb-6">
         <div className="container">
-          <div className="flex justify-between p-9 font-semibold">
-            <p className="text-blue-500">Vehicle services</p>
-            <p className="text-green-400">View More</p>
+          <div className="flex text-text  font-semibold  justify-between  p-3">
+            <p>vehicle services</p>
+            <p>view more</p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-5 p-5">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6 p-5 ">
             <img className="w-40" src={car} alt="" />
             <img className="w-40" src={car} alt="" />
             <img className="w-40" src={car} alt="" />
@@ -104,6 +112,53 @@ const Home = () => {
             <img className="w-40" src={car} alt="" />
             <img className="w-40" src={car} alt="" />
             <img className="w-40" src={car} alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-vehicle mb-6">
+        <div className="container">
+          <div className="flex   font-semibold p-2 px-6">
+            <p className="text-text">vehicle services</p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-5 p-5 ">
+            <img className="w-40" src={panter} alt="" />
+            <img className="w-40" src={panter} alt="" />
+            <img className="w-40" src={panter} alt="" />
+            <img className="w-40" src={panter} alt="" />
+            <img className="w-40" src={panter} alt="" />
+          </div>
+        </div>
+      </section>
+
+      <div className="container mb-6">
+        <section className="flex items-center justify-between  ">
+          <div className="bg-vehicle rounded-xl">
+            <div className="p-5">
+              <p className="mb-3 font-semibold text-text">Most Used Services</p>
+              <img className="w-96" src={servises} alt="Most Used Services" />
+            </div>
+          </div>
+
+          <div className="mr-16">
+            <img className="w-96" src={books} alt="Books" />
+          </div>
+        </section>
+      </div>
+
+      <section className="bg-vehicle mb-6">
+        <div className="container">
+          <div className="flex   font-semibold p-2 px-6">
+            <p className="text-text">Stores</p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-5 p-5 ">
+            <img className="w-40" src={store} alt="" />
+            <img className="w-40" src={store} alt="" />
+            <img className="w-40" src={store} alt="" />
+            <img className="w-40" src={store} alt="" />
+            <img className="w-40" src={store} alt="" />
           </div>
         </div>
       </section>

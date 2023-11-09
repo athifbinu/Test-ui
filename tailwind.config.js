@@ -23,6 +23,11 @@ module.exports = {
       colors: {
         primary: '#101828',
         secondary: '#7F56D9',
+        vehicle:"#EDFFF5",
+        common:"#006391",
+        banner:"#F1F4F8",
+        text:"#0A4A70",
+
       },
       boxShadow: {
         1: '0px 4px 30px rgba(0, 0, 0, 0.08)',

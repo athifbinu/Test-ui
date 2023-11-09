@@ -17,7 +17,7 @@ import servises from "../assets/services.png";
 import books from "../assets/boks.png";
 
 import store from "../assets/mobile.png";
-
+import musi from "../assets/musi.png"
 import { RiArrowDownSFill } from "react-icons/ri";
 
 const Home = () => {
@@ -25,8 +25,9 @@ const Home = () => {
     <div>
       <section className="bg-banner mb-14">
         <div className="container">
-          <div className="p-4 ">
+          <div className="p-5 justify-between flex ">
             <img className="w-10" src={mobile} alt="" />
+            <img className="w-10" src={musi} alt="" />
           </div>
           <div className="">
             <div className="flex items-center justify-between ml-40">

@@ -28,7 +28,7 @@ const Header = () => {
               </span>
             </button>
 
-            <p>Log in</p>
+            <p className="text-blue-400">Log in</p>
           </div>
         </div>
       </nav>
